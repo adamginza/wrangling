@@ -1,0 +1,521 @@
+order_id,customer_name,product_category,quantity,unit_price,order_date,city,payment_method,rating
+ORD-00001,Dewi Santoso,Accessories,7.0,304.44,2024-01-01,Jakarta,Cash on Delivery,4.8
+ORD-00002,Andi Rahayu,Gadgets,4.0,Rp 201.68,2024-01-01,Semarang,Credit Card,2.8
+ORD-00003,Maya Sari,Accessories,8.0,254.56,2024-01-03,Bandung,E-Wallet,4.2
+ORD-00004,Dewi Wibowo,Electronics,5.0,175.18,2024-01-03,Surabaya,Cash on Delivery,4.7
+ORD-00005,Agus Handoko,Computers,7.0,225.93,2024-01-03,Semarang,E-Wallet,4.1
+ORD-00006,Siti Santoso,Electronics,10.0,189.59,2024-01-03,Medan,Cash on Delivery,4.9
+ORD-00007,Agus Susanto,Electronics,3.0,207.76,2024-01-03,Semarang,Cash on Delivery,3.6
+ORD-00008,Maya Kartika,Computers,7.0,247.61,2024-01-04,Jakarta,Bank Transfer,5.0
+ORD-00009,Joko Santoso,,8.0,134.54,2024-01-04,Medan,E-Wallet,5.0
+ORD-00010,Bambang Susanto,,5.0,"367,000",2024-01-04,Semarang,Cash on Delivery,3.7
+ORD-00011,Bambang Handoko,Electronics,4.0,119.52,2024-01-04,Bandung,Bank Transfer,3.6
+ORD-00012,Maya Lestari,Electronics,8.0,102.86,2024-01-04,Bandung,Cash on Delivery,5.0
+ORD-00013,Yuni Setiawan,Gadgets,8.0,292.65,2024-01-04,MEDAN,bank transfer,
+ORD-00014,Budi Hidayat,Electronics,3.0,263.33,2024-01-05,Surabaya,Bank Transfer,3.6
+ORD-00015,Wawan Nugroho,Gadgets,6.0,249.93,2024-01-05,Medan,E-Wallet,3.7
+ORD-00016,Andi Sari,Gadgets,5.0,250.27,2024-01-05,Bandung,Bank Transfer,3.8
+ORD-00017,Hendra Nugroho,Gadgets,2.0,Rp 199.02,2024-01-05,Medan,Cash on Delivery,2.9
+ORD-00018,Dewi Kusuma,Computers,8.0,128.22,2024-01-05,Jakarta,Credit Card,3.3
+ORD-00019,Dian Pratama,Accessories,6.0,206.06,2024-01-05,Jakarta,Cash on Delivery,3.2
+ORD-00020,Novi Wati,Accessories,2.0,145.83,2024-01-06,surabaya,Cash on Delivery,3.4
+ORD-00021,Joko Setiawan,,5.0,278.01,2024-06-01,Medan,Bank Transfer,4.0
+ORD-00022,Siti Lestari,Computers,1.0,188.24,2024-01-06,Medan,Cash on Delivery,4.2
+ORD-00023,Bambang Pratama,Audio,10.0,133.96,2024-01-06, Medan ,Bank Transfer,5.0
+ORD-00024,Dian Kusuma,Accessories,6.0,174.29,2024-01-06,Medan,E-Wallet,3.2
+ORD-00025,Bambang Putri,Accessories,9.0,12000.0,2024-01-06,Surabaya,Bank Transfer,4.8
+ORD-00026,Joko Wati,Accessories,1.0,154.9,2024-01-06,Bandung,E-Wallet,3.8
+ORD-00027,Yuni Susanto,Electronics,10.0,134.22,2024-01-06,Semarang ,Credit Card,4.0
+ORD-00028,Agus Wijaya,Audio,3.0,219.49,2024-01-06,Surabaya,Cash on Delivery,
+ORD-00029,Maya Putri,Computers,7.0,219.6,2024-01-07,Bandung,E-Wallet,3.1
+ORD-00030,Agus Rahayu,Audio,4.0,159.44,2024-01-07,Bandung,Credit Card,4.3
+ORD-00031,Dewi Permana,Accessories,9.0,162.32,2024-01-07,Bandung ,Bank Transfer,4.1
+ORD-00032,Andi Lestari,Computers,3.0,218.56,2024-07-01, Medan ,Credit Card,4.4
+ORD-00033,Novi Hidayat,Audio,5.0,84.15,2024-01-07,Surabaya,E-Wallet,4.2
+ORD-00034,Novi Wati,Accessories,3.0,87.4,2024-01-08,Bandung,Cash on Delivery,5.0
+ORD-00035,Hendra Setiawan,Accessories,7.0,142.52,2024-01-08,Semarang,Credit Card,3.5
+ORD-00036,Agus Hidayat,Computers,5.0,182.92,2024-01-08,Semarang ,CREDIT CARD,3.6
+ORD-00037,Bambang Rahayu,Gadgets,9.0,224.87,2024-01-09,Jakarta,Bank Transfer,3.5
+ORD-00038,Rina Lestari,Computers,7.0,318.03,2024-01-09,Bandung,Bank Transfer,3.6
+ORD-00039,Dian Setiawan,Gadgets,2.0,268.61,2024-01-09,Surabaya,cod,3.5
+ORD-00040,Bambang Rahayu,Electronics,4.0,187.2,2024-01-09,Medan,Bank Transfer,5.0
+ORD-00041,Rizky Wijaya,Computers,9.0,198.48,2024-01-09,Jakarta,E-Wallet,5.0
+ORD-00042,Maya Wijaya,Gadgets,2.0,119.8,2024-01-09,Bandung,E-Wallet,3.5
+ORD-00043,Rizky Permana,Audio,10.0,198.52,2024-01-09,Medan,Credit Card,3.3
+ORD-00044,Andi Kusuma,Accessories,9.0,176.91,2024-01-09,surabaya,BT,4.4
+ORD-00045,Hendra Nugroho,Electronics,10.0,225.82,2024-01-10,Surabaya,Bank Transfer,3.6
+ORD-00046,Hendra Suryadi,Computers,5.0,133.82,2024-01-10,Jakarta,CREDIT CARD,4.5
+ORD-00047,Dian Lestari,Gadgets,2.0,241.55,2024-01-10,Jakarta,Cash on Delivery,4.2
+ORD-00048,Eko Setiawan,Audio,4.0,"322,000",2024-01-10,Bandung,Bank Transfer,2.8
+ORD-00049,Eko Rahayu,Gadgets,7.0,191.3,2024-01-10,Medan,Bank Transfer,5.0
+ORD-00050,Bambang Wibowo,Computers,8.0,"232,000",2024-01-10,Semarang,Cash on Delivery,5.0
+ORD-00051,Andi Handoko,Gadgets,3.0,255.21,2024-01-11,MEDAN,Bank Transfer,3.5
+ORD-00052,Yuni Permana,Computers,1.0,167.9,2024-01-11,surabaya,E-Wallet,3.7
+ORD-00053,Novi Rahayu,Gadgets,4.0,217.93,2024-01-11,Surabaya,E-Wallet,4.2
+ORD-00054,Eko Kartika,Accessories,2.0,Rp 201.01,2024-01-11,Bandung,Cash on Delivery,4.3
+ORD-00055,Ahmad Kusuma,Computers,,207.81,2024-01-11,Semarang,Cash on Delivery,4.5
+ORD-00056,Siti Pratama,Computers,4.0,138.16,2024-01-11,Bandung,E-Wallet,
+ORD-00057,Eko Hidayat,Electronics,,201.96,2024-01-11,Surabaya,E-Wallet,3.9
+ORD-00058,Wawan Kusuma,Accessories,6.0,239.84,2024-01-11,Surabaya,E-Wallet,3.4
+ORD-00059,Dian Permana,Computers,6.0,316.09,2024-01-11,Medan,E-Wallet,2.9
+ORD-00060,Joko Lestari,Audio,10.0,276.74,2024-01-11,Semarang ,Cash on Delivery,3.4
+ORD-00061,Lina Setiawan,Gadgets,4.0,372.25,2024-01-11,Medan,Cash on Delivery,4.0
+ORD-00062,Bambang Santoso,Audio,6.0,138.61,2024-01-11,Medan,Credit Card,5.0
+ORD-00063,Dewi Wibowo,Gadgets,2.0,269.79,2024-01-12,Bandug,cod,3.6
+ORD-00064,Andi Nugroho,Gadgets,10.0,214.67,2024-01-12, Medan ,Ewallet,4.2
+ORD-00065,Dewi Putri,Electronics,2.0,Rp 375.18,2024-01-12,Jakarta,Bank Transfer,4.0
+ORD-00066,Wawan Hidayat,Computers,10.0,135.34,2024-01-12,Jakarta,E-Wallet,5.0
+ORD-00067,Fitri Santoso,Gadgets,4.0,132.82,2024-01-12,medan,E-Wallet,5.0
+ORD-00068,Andi Kartika,Electronics,8.0,152.05,2024-01-13,Semarang,Cash on Delivery,3.6
+ORD-00069,Rina Kartika,Audio,7.0,50.0,2024-01-13,Medan,Credit,3.6
+ORD-00070,Dewi Putri,Electronics,,157.94,2024-01-13,Surabaya,Bank Transfer,4.8
+ORD-00071,Lina Susanto,Audio,,139.27,2024-01-14,Surabaya,Bank Transfer,4.5
+ORD-00072,Eko Wati,Computers,5.0,212.03,2024-01-14,Semarang,Credit Card,5.0
+ORD-00073,Rina Wibowo,Gadgets,2.0,227.34,2024-01-14,Bandung,E-Wallet,
+ORD-00074,Lina Santoso,Accessories,5.0,350.09,2024-01-14,Jakarta,Cash on Delivery,3.7
+ORD-00075,Joko Nugroho,Audio,8.0,276.03,2024-01-15,Jakarta,E-Wallet,4.5
+ORD-00076,Ahmad Santoso,Gadgets,10.0,153.85,2024-01-15,Bandung,Bank Transfer,4.9
+ORD-00077,Dewi Wati,Accessories,9.0,128.13,2024-01-15,medan,Bank Transfer,4.7
+ORD-00078,Putri Rahayu,Accessories,9.0,239.35,2024-01-16,Semarang,E-Wallet,4.4
+ORD-00079,Siti Rahayu,Audio,1.0,94.38,2024-01-16,Medan,Bank Transfer,4.9
+ORD-00080,Yuni Kusuma,Gadgets,9.0,Rp 346.52,2024-01-16,Bandung,Cash on Delivery,4.9
+ORD-00081,Agus Suryadi,Accessories,7.0,294.36,2024-01-16,Semarang,BT,5.0
+ORD-00082,Agus Wibowo,Electronics,9.0,162.47,2024-01-16,Jakarta,Cash on Delivery,4.5
+ORD-00083,Eko Sari,Electronics,8.0,62.95,2024-01-16,Jakarta,E-Wallet,3.9
+ORD-00084,Ahmad Wibowo,Gadgets,1.0,308.31,2024-01-16,Medan,E-Wallet,4.1
+ORD-00085,Rina Setiawan,Computers,8.0,Rp 190.84,2024-01-17,Surabaya,Cash on Delivery,5.0
+ORD-00086,Lina Handoko,Electronics,8.0,299.03,2024-01-17,Bandung,Cash on Delivery,3.3
+ORD-00087,Hendra Wibowo,Audio,3.0,72.45,2024-01-17,bandung,Cash on Delivery,
+ORD-00088,Hendra Putri,Gadgets,,152.05,2024-01-17,Medan,bank transfer,3.7
+ORD-00089,Dian Wati,Accessories,8.0,200.42,2024-01-17,Bandung,E-Wallet,4.0
+ORD-00090,Fitri Kartika,Electronics,3.0,203.76,2024-01-17,JAKARTA,BT,5.0
+ORD-00091,Fitri Pratama,Gadgets,3.0,163.99,2024-01-17,Medan,Bank Transfer,4.2
+ORD-00092,Maya Rahayu,Gadgets,,249.83,2024-01-17,Jakarta,Cash on Delivery,4.0
+ORD-00093,Agus Nugroho,Computers,5.0,114.59,2024-01-17,Semarang,Bank Transfer,2.9
+ORD-00094,Budi Wibowo,Accessories,,"188,000",2024-01-18,Semarang ,Credit Card,4.6
+ORD-00095,Maya Rahayu,Accessories,7.0,209.62,2024-01-18,SURABAYA,Credit Card,4.5
+ORD-00096,Budi Kusuma,Accessories,10.0,Rp 241.16,2024-01-18,Bandung,Credit Card,5.0
+ORD-00097,Siti Rahayu,Audio,9.0,256.93,2024-01-18,Semarang ,Credit Card,3.8
+ORD-00098,Agus Wijaya,Gadgets,7.0,Rp 110.03,2024-01-18,Bandung,Credit Card,4.2
+ORD-00099,Rizky Kusuma,Audio,9.0,77.27,2024-01-18,Jakarta,Cash on Delivery,4.2
+ORD-00100,Lina Rahayu,Audio,8.0,302.21,2024-01-18,Medan,BANK TRANSFER,5.0
+ORD-00101,Andi Suryadi,Gadgets,2.0,226.59,2024-01-18,Semarang,Bank Transfer,3.9
+ORD-00102,Hendra Wibowo,Accessories,1.0,Rp 140.12,2024-01-18,Medan,Credit Card,4.2
+ORD-00103,Eko Suryadi,Gadgets,7.0,324.09,2024-01-19,Semarang,BT,4.5
+ORD-00104,Maya Suryadi,Computers,7.0,209.25,2024-01-19,Bandung,Credit,4.1
+ORD-00105,Wawan Susanto,Gadgets,8.0,294.34,2024-01-19,semarang,Bank Transfer,3.6
+ORD-00106,Dewi Pratama,Gadgets,5.0,205.4,2024-01-19,Semarang,Cash on Delivery,4.2
+ORD-00107,Wawan Wati,Electronics,3.0,364.86,2024-01-19,Jakarta,E-Wallet,4.9
+ORD-00108,Wawan Handoko,Computers,8.0,340.43,2024-01-20,Surabaya,Credit Card,3.2
+ORD-00109,Fitri Wijaya,Electronics,6.0,180.08,2024-01-20,Jakarta,cod,4.1
+ORD-00110,Dewi Wijaya,Accessories,3.0,277.73,2024-01-20,Medan,Cash on Delivery,3.4
+ORD-00111,Dian Nugroho,Accessories,1.0,251.63,2024-01-20,Bandung,Credit Card,5.0
+ORD-00112,Dewi Rahayu,Computers,3.0,309.49,2024-01-20,Bandung,Credit Card,2.8
+ORD-00113,Hendra Susanto,Audio,5.0,122.81,2024-01-20,Semarang,Cash on Delivery,3.6
+ORD-00114,Bambang Lestari,Gadgets,,254.88,2024-01-20,Bandung,Credit Card,4.3
+ORD-00115,Eko Handoko,Electronics,1.0,284.67,2024-01-20,Surabaya,Credit Card,5.0
+ORD-00116,Rina Setiawan,Computers,5.0,59.3,2024-01-21,Surabaya,Ewallet,
+ORD-00117,Fitri Rahayu,Electronics,10.0,105.34,2024-01-21,Semarang,E-Wallet,3.6
+ORD-00118,Agus Lestari,Gadgets,7.0,50.0,2024-01-21,Semarang,Credit Card,5.0
+ORD-00119,Bambang Pratama,Audio,7.0,178.45,2024-01-21,Medan,Cash on Delivery,2.8
+ORD-00120,Siti Wibowo,Electronics,9.0,257.4,2024-01-21,Semarang,Bank Transfer,2.2
+ORD-00121,Budi Kusuma,Computers,10.0,320.19,2024-01-21,Jakarta,Credit Card,4.4
+ORD-00122,Maya Hidayat,Gadgets,10.0,205.93,2024-01-21,Jakarta,Credit Card,3.6
+ORD-00123,Wawan Suryadi,Gadgets,,330.29,2024-01-22,Jakarta,Bank Transfer,3.2
+ORD-00124,Ahmad Susanto,Audio,7.0,89.59,2024-01-22,Surabaya,BT,4.6
+ORD-00125,Dian Wijaya,Computers,,15000.0,2024-01-22,bandung,Bank Transfer,4.2
+ORD-00126,Rina Permana,Gadgets,,195.56,2024-01-22,MEDAN,E-Wallet,3.5
+ORD-00127,Budi Permana,Electronics,4.0,230.73,2024-01-22,Semarang,E-Wallet,3.0
+ORD-00128,Andi Lestari,Accessories,5.0,197.38,2024-01-23,Medan,E-Wallet,4.7
+ORD-00129,Putri Handoko,Computers,7.0,50.0,2024-01-23,Surabaya,Cash on Delivery,4.5
+ORD-00130,Bambang Suryadi,Electronics,7.0,192.87,2024-01-23,Semarang,CC,3.9
+ORD-00131,Eko Susanto,Audio,,95.64,2024-01-23,Semarang,E-Wallet,5.0
+ORD-00132,Putri Susanto,Audio,7.0,253.57,2024-01-24,Surabya,Cash on Delivery,3.1
+ORD-00133,Siti Wibowo,Gadgets,3.0,229.33,2024-01-24,Bandung,Cash on Delivery,2.8
+ORD-00134,Siti Nugroho,Audio,6.0,Rp 124.81,2024-01-24,Semarang ,Bank Transfer,3.4
+ORD-00135,Siti Wijaya,Accessories,2.0,158.89,2024-01-24,Bandung,Bank Transfer,4.0
+ORD-00136,Yuni Suryadi,,10.0,115.26,2024-01-24,Surabaya,E-Wallet,
+ORD-00137,Lina Kartika,Computers,9.0,194.99,2024-01-24,Medan,Credit Card,3.8
+ORD-00138,Rina Wijaya,Gadgets,5.0,276.41,2024-01-24,Semarang,Credit Card,4.3
+ORD-00139,Lina Kusuma,Computers,6.0,121.14,2024-01-24,Bandung,Credit Card,3.0
+ORD-00140,Rina Kusuma,Electronics,4.0,240.32,2024-01-25,Semarang,Cash on Delivery,5.0
+ORD-00141,Joko Kusuma,Accessories,10.0,157.58,2024-01-25,Bandung ,Cash on Delivery,3.9
+ORD-00142,Maya Permana,Electronics,7.0,136.57,2024-01-25,Semarang,Cash on Delivery,4.9
+ORD-00143,Dewi Rahayu,Electronics,,191.44,2024-01-25,Semarang,Cash on Delivery,4.3
+ORD-00144,Yuni Wijaya,Gadgets,7.0,117.18,2024-01-26,SEMARANG,Credit Card,
+ORD-00145,Joko Kusuma,Computers,1.0,155.71,2024-01-26,Medan,Credit Card,4.5
+ORD-00146,Wawan Kartika,Electronics,,104.17,2024-01-26,Semarang,Bank Transfer,4.4
+ORD-00147,Rizky Setiawan,Electronics,9.0,357.18,2024-01-26,Bandung,Credit Card,4.5
+ORD-00148,Hendra Nugroho,Accessories,9.0,202.82,2024-01-26,Medan,cash,5.0
+ORD-00149,Maya Setiawan,Audio,4.0,144.02,2024-01-26,Jakarta,Cash on Delivery,4.2
+ORD-00150,Dian Sari,Accessories,9.0,217.12,2024-01-28,Bandung,E-Wallet,4.6
+ORD-00151,Putri Lestari,Computers,3.0,191.01,2024-01-28,Bandung,credit card,3.9
+ORD-00152,Rizky Kusuma,Computers,,182.32,2024-01-28,Jakrta,credit card,5.0
+ORD-00153,Budi Lestari,Gadgets,6.0,249.13,2024-01-29, Medan ,Bank Transfer,3.5
+ORD-00154,Joko Pratama,Audio,8.0,260.6,2024-01-29,Semarang,BANK TRANSFER,5.0
+ORD-00155,Agus Wibowo,Computers,9.0,157.56,2024-01-29,Bandung,Cash On Delivery,4.0
+ORD-00156,Hendra Kartika,Audio,5.0,153.93,2024-01-29,Jakarta,E-Wallet,2.9
+ORD-00157,Andi Sari,Accessories,1.0,178.0,2024-01-29,Semarang,Credit Card,4.1
+ORD-00158,Novi Kusuma,Computers,3.0,50.0,2024-01-30,Medan,Credit Card,3.5
+ORD-00159,Maya Wati,Electronics,10.0,78.78,2024-01-31,Bandung,E-Wallet,4.7
+ORD-00160,Putri Hidayat,Computers,8.0,309.35,2024-01-31,Semarang,Credit Card,3.5
+ORD-00161,Fitri Wibowo,Audio,6.0,331.6,2024-01-31,Semarang,Bank Transfer,3.6
+ORD-00162,Putri Kartika,Computers,8.0,180.08,2024-01-31,Surabaya,E-Wallet,2.5
+ORD-00163,Budi Wibowo,Gadgets,9.0,Rp 246.12,2024-01-31,Jakarta,Credit Card,3.6
+ORD-00164,Putri Pratama,Electronics,4.0,224.9,2024-01-31,Semarang,Bank Transfer,2.1
+ORD-00165,Eko Setiawan,Gadgets,1.0,446.31,2024-01-31,Medan,Bank Transfer,2.7
+ORD-00166,Dewi Pratama,Accessories,1.0,289.57,2024-01-31,Surabaya,Cash on Delivery,4.6
+ORD-00167,Bambang Sari,Computers,10.0,189.77,2024-01-31,Semarang,Credit Card,4.6
+ORD-00168,Andi Putri,Computers,,123.56,2024-01-31,Semarang,E-Wallet,4.3
+ORD-00169,Joko Susanto,Accessories,7.0,71.48,2024-02-01,Medan,Bank Transfer,3.2
+ORD-00170,Rizky Susanto,Gadgets,2.0,216.28,2024-02-01,Surabaya,Bank Transfer,4.0
+ORD-00171,Andi Kartika,Electronics,3.0,139.49,2024-02-02,Surabaya,Cash on Delivery,4.0
+ORD-00172,Ahmad Setiawan,Gadgets,,86.22,2024-02-02,Jakarta,E-WALLET,3.1
+ORD-00173,Siti Kusuma,Audio,5.0,148.27,2024-02-02,SEMARANG,Cash on Delivery,5.0
+ORD-00174,Wawan Setiawan,Gadgets,1.0,113.48,2024-02-02,Jakarta,Bank Transfer,4.7
+ORD-00175,Siti Santoso,Electronics,8.0,334.97,2024-02-02,Surabaya,Credit Card,3.8
+ORD-00176,Rizky Sari,Computers,1.0,6000.0,2024-02-02,Jakarta,E-Wallet,4.0
+ORD-00177,Andi Hidayat,Gadgets,1.0,199.36,2024-02-03,MEDAN,credit card,4.2
+ORD-00178,Fitri Wibowo,,2.0,318.4,2024-02-03,Bandung,Credit,2.4
+ORD-00179,Wawan Wibowo,Electronics,2.0,206.19,2024-02-04,medan,Cash on Delivery,3.8
+ORD-00180,Budi Pratama,Computers,6.0,131.1,2024-02-04,Surabaya,Bank Transfer,3.5
+ORD-00181,Agus Sari,Electronics,7.0,321.85,2024-02-04,Medan,Credit Card,3.2
+ORD-00182,Bambang Wijaya,Accessories,5.0,243.11,2024-05-02,Surabaya,E-Wallet,3.8
+ORD-00183,Novi Wibowo,Audio,1.0,117.02,2024-02-05,Medan,Cash on Delivery,5.0
+ORD-00184,Eko Handoko,Electronics,1.0,184.77,2024-02-05,Semarang,E-Wallet,4.5
+ORD-00185,Eko Wijaya,Electronics,,129.95,2024-02-06,Semarang ,Credit Card,3.5
+ORD-00186,Putri Wati,Gadgets,2.0,89.38,2024-02-06,Medan,E-Wallet,4.5
+ORD-00187,Siti Wati,Accessories,5.0,274.09,2024-06-02,Jakarta,Cash on Delivery,5.0
+ORD-00188,Hendra Rahayu,Accessories,10.0,20000.0,2024-02-06,Surabaya,Cash on Delivery,4.7
+ORD-00189,Dewi Wati,Audio,6.0,88.11,2024-02-06,Semarang,Bank Transfer,4.0
+ORD-00190,Bambang Handoko,Accessories,7.0,245.04,2024-02-06,Surabaya,E-Wallet,3.5
+ORD-00191,Joko Sari,Electronics,4.0,147.95,2024-02-06,Semarang,Cash on Delivery,4.6
+ORD-00192,Maya Hidayat,Audio,7.0,161.03,2024-02-06,Bandung ,cash,4.3
+ORD-00193,Rina Handoko,Accessories,8.0,152.61,2024-02-06,Medan,Bank Transfer,4.7
+ORD-00194,Budi Hidayat,Audio,1.0,130.88,2024-02-06,Semarang,Cash on Delivery,
+ORD-00195,Rizky Handoko,Accessories,6.0,203.88,2024-02-07,Medan,Credit Card,4.8
+ORD-00196,Maya Setiawan,Accessories,8.0,133.52,2024-02-07,Bandung,E-Wallet,3.6
+ORD-00197,Rina Pratama,Gadgets,,221.64,2024-02-07,Surabaya,Bank Transfer,5.0
+ORD-00198,Dian Wijaya,Accessories,4.0,195.98,2024-02-07,Medan,credit card,4.2
+ORD-00199,Ahmad Rahayu,Audio,2.0,180.88,2024-02-07,Semarang,Credit Card,5.0
+ORD-00200,Hendra Lestari,Electronics,6.0,127.39,2024-02-07,Bandung,E-Wallet,3.4
+ORD-00201,Novi Putri,Gadgets,6.0,153.86,2024-02-08,Semarang,Bank Transfer,5.0
+ORD-00202,Maya Rahayu,Accessories,1.0,260.43,2024-02-08,Bandung,Cash on Delivery,4.2
+ORD-00203,Budi Susanto,Accessories,9.0,240.07,2024-02-08,Bandung ,Bank Transfer,3.5
+ORD-00204,Dian Nugroho,Audio,6.0,121.8,2024-02-08,Semarang,Cash on Delivery,3.6
+ORD-00205,Andi Kusuma,Gadgets,3.0,207.95,2024-02-09,MEDAN,E-Wallet,3.7
+ORD-00206,Andi Wati,Accessories,4.0,260.11,2024-02-09,Surabaya,E-Wallet,4.3
+ORD-00207,Lina Permana,Electronics,4.0,66.45,2024-02-09,Surabaya,CC,4.4
+ORD-00208,Bambang Nugroho,Electronics,3.0,Rp 243.47,2024-02-09,Bandung,Credit Card,3.5
+ORD-00209,Budi Pratama,Accessories,10.0,146.99,2024-02-09,Semarang,Credit Card,4.0
+ORD-00210,Andi Hidayat,Electronics,3.0,245.65,2024-02-09,Bandung,E-Wallet,5.0
+ORD-00211,Yuni Setiawan,Gadgets,3.0,138.94,2024-02-09,Surabaya,Cash on Delivery,
+ORD-00212,Siti Pratama,,4.0,55.61,2024-02-10,Bandung,E-Wallet,4.3
+ORD-00213,Joko Handoko,Audio,7.0,69.8,2024-02-10,Bandung,E-Wallet,4.0
+ORD-00214,Novi Nugroho,Gadgets,4.0,203.85,2024-02-10,Surabaya,Credit Card,4.1
+ORD-00215,Wawan Kartika,Electronics,9.0,220.78,2024-02-10,Medan,Bank Transfer,4.5
+ORD-00216,Dewi Permana,Accessories,1.0,127.65,2024-02-10,Bandung,Credit Card,3.2
+ORD-00217,Yuni Susanto,Gadgets,8.0,"251,000",2024-02-11,Medan,BT,3.8
+ORD-00218,Andi Wijaya,Electronics,7.0,67.08,2024-02-11,Bandung,Cash on Delivery,2.7
+ORD-00219,Wawan Santoso,Accessories,2.0,Rp 194.71,2024-02-11,Semarang,Cash on Delivery,4.3
+ORD-00220,Lina Wibowo,Computers,8.0,103.12,2024-02-11,bandung,Cash on Delivery,4.5
+ORD-00221,Hendra Wati,Audio,,147.85,2024-02-12,Bandung,Credit Card,3.6
+ORD-00222,Wawan Kusuma,Electronics,9.0,203.79,2024-02-12,Jakarta,Credit Card,5.0
+ORD-00223,Rizky Nugroho,Electronics,9.0,131.17,2024-02-12,Semarang,Credit Card,3.0
+ORD-00224,Dewi Putri,Computers,2.0,169.24,2024-02-12,Semarang,E-Wallet,2.8
+ORD-00225,Lina Putri,Computers,7.0,280.5,2024-02-12,MEDAN,Credit Card,4.2
+ORD-00226,Wawan Nugroho,Gadgets,10.0,153.85,2024-02-12,Medan,E-Wallet,4.8
+ORD-00227,Dian Putri,Audio,3.0,266.86,2024-02-12,Bandung,Cash on Delivery,5.0
+ORD-00228,Bambang Sari,Audio,7.0,109.62,2024-02-13, Surabaya,Credit Card,3.6
+ORD-00229,Hendra Handoko,Electronics,10.0,242.38,2024-02-13,Bandung,E-Wallet,4.9
+ORD-00230,Dian Hidayat,,9.0,315.33,2024-02-13,Jakarta,Cash on Delivery,4.0
+ORD-00231,Joko Putri,,4.0,50.0,2024-02-13,Bandung,Cash on Delivery,3.9
+ORD-00232,Dian Wibowo,Accessories,1.0,136.25,2024-02-13,Jakarta,Credit,4.7
+ORD-00233,Budi Putri,Audio,2.0,246.17,2024-02-13,Bandung,Bank,4.5
+ORD-00234,Putri Susanto,Electronics,1.0,183.76,2024-02-13,Medan,Bank Transfer,2.7
+ORD-00235,Wawan Nugroho,Audio,5.0,229.69,2024-02-14,Bandung,Cash on Delivery,5.0
+ORD-00236,Fitri Lestari,Gadgets,5.0,151.68,2024-02-14,Medan,Bank Transfer,5.0
+ORD-00237,Fitri Susanto,Computers,7.0,206.93,2024-02-14,Surabaya,Bank Transfer,3.5
+ORD-00238,Lina Suryadi,Electronics,9.0,187.55,2024-02-14,Surabaya,E-Wallet,4.3
+ORD-00239,Rina Kusuma,Electronics,9.0,293.42,2024-02-14,Semarang,E-Wallet,4.4
+ORD-00240,Putri Kartika,Computers,3.0,220.35,2024-02-14,Bandung,E-Wallet,4.2
+ORD-00241,Joko Nugroho,Computers,3.0,227.01,2024-02-14,Semarang,Cash on Delivery,3.6
+ORD-00242,Agus Rahayu,Computers,3.0,167.05,2024-02-15,Bandung,bank transfer,3.5
+ORD-00243,Putri Rahayu,Electronics,4.0,160.99,2024-02-15,Surabaya,Credit Card,4.0
+ORD-00244,Hendra Sari,Computers,8.0,165.4,2024-02-15,Jakarta,Bank Transfer,4.9
+ORD-00245,Budi Wijaya,Computers,6.0,231.56,2024-02-15,Semarang,Cash on Delivery,4.4
+ORD-00246,Maya Suryadi,Electronics,8.0,166.32,2024-02-15,Semarang,E-Wallet,
+ORD-00247,Joko Kusuma,Electronics,1.0,223.18,2024-02-16,Surabaya,Cash on Delivery,
+ORD-00248,Fitri Handoko,Gadgets,8.0,366.03,2024-02-16,Surabaya,E-Wallet,1.7
+ORD-00249,Yuni Susanto,Audio,4.0,269.69,2024-02-16,Jakarta,Cash on Delivery,4.9
+ORD-00250,Dian Suryadi,Accessories,1.0,173.92,2024-02-16,Semarang,Credit Card,2.6
+ORD-00251,Dian Rahayu,Electronics,8.0,296.1,2024-02-16,Surabaya,E-Wallet,3.7
+ORD-00252,Eko Santoso,Accessories,4.0,167.35,2024-02-16,surabaya,E-Wallet,3.1
+ORD-00253,Dewi Handoko,Gadgets,6.0,50.0,2024-02-16,Jakarta,Bank Transfer,3.0
+ORD-00254,Maya Hidayat,Audio,8.0,119.35,2024-02-16,Jakarta,Cash on Delivery,
+ORD-00255,Lina Lestari,Audio,4.0,50.34,2024-02-16,medan,Bank Transfer,
+ORD-00256,Siti Wibowo,Audio,3.0,171.88,2024-02-16,bandung,Cash on Delivery,4.3
+ORD-00257,Maya Pratama,Gadgets,9.0,201.47,2024-02-16,Medan,Credit Card,4.0
+ORD-00258,Fitri Sari,Computers,3.0,334.11,2024-02-17,Jakarta,Bank Transfer,4.4
+ORD-00259,Fitri Kartika,,9.0,226.15,2024-02-17,Surabaya,E-Wallet,4.1
+ORD-00260,Bambang Nugroho,Audio,2.0,182.47,2024-02-17,Jakarta,Credit Card,3.0
+ORD-00261,Fitri Kartika,Gadgets,2.0,266.35,2024-02-17,Semarang,Cash on Delivery,4.8
+ORD-00262,Wawan Wibowo,Computers,2.0,50.0,2024-02-17,Surabaya,E-Wallet,3.6
+ORD-00263,Fitri Hidayat,Audio,6.0,218.85,2024-02-17,Medan,Cash on Delivery,2.8
+ORD-00264,Ahmad Lestari,Audio,3.0,261.67,2024-02-17,Medan,E-Wallet,3.7
+ORD-00265,Andi Rahayu,Computers,9.0,81.71,2024-02-17,Medan,cod,5.0
+ORD-00266,Andi Kartika,Electronics,4.0,291.5,2024-02-17,surabaya,E-Wallet,4.7
+ORD-00267,Ahmad Rahayu,Electronics,1.0,227.08,2024-02-17,bandung,Cash on Delivery,3.7
+ORD-00268,Andi Lestari,Audio,4.0,166.78,2024-02-17,Bandung,Bank Transfer,3.7
+ORD-00269,Agus Putri,Accessories,1.0,250.62,2024-02-18,Bandung,E-Wallet,3.7
+ORD-00270,Maya Setiawan,Computers,5.0,381.66,2024-02-18,Jakarta,Ewallet,5.0
+ORD-00271,Rizky Nugroho,Computers,4.0,214.55,2024-02-18,Jakarta,Bank,4.3
+ORD-00272,Bambang Kusuma,Accessories,8.0,219.86,2024-02-19,Semarang,Cash on Delivery,4.3
+ORD-00273,Eko Sari,Computers,8.0,163.25,2024-02-19,Surabaya,E-Wallet,4.8
+ORD-00274,Maya Permana,Gadgets,7.0,132.01,2024-02-19,Semarang,Bank Transfer,4.2
+ORD-00275,Eko Susanto,Computers,3.0,Rp 266.43,2024-02-19,Jakarta,Cash on Delivery,3.8
+ORD-00276,Agus Handoko,,1.0,131.51,2024-02-19,Surabaya,Ewallet,3.8
+ORD-00277,Wawan Nugroho,Computers,1.0,205.73,2024-02-19, Medan ,E-Wallet,3.9
+ORD-00278,Bambang Lestari,Electronics,3.0,161.79,2024-02-19,Surabaya,Cash on Delivery,4.0
+ORD-00279,Wawan Wijaya,Gadgets,6.0,238.32,2024-02-19,Jakarta,Bank Transfer,4.6
+ORD-00280,Hendra Handoko,Computers,7.0,226.69,2024-02-20,Medan,E-Wallet,4.0
+ORD-00281,Dian Santoso,Gadgets,6.0,"283,000",2024-02-20,Medan,Cash on Delivery,4.6
+ORD-00282,Yuni Permana,,6.0,159.2,2024-02-20,SURABAYA,E-Wallet,3.9
+ORD-00283,Ahmad Santoso,Gadgets,6.0,178.41,2024-02-20,Bandung,cod,4.1
+ORD-00284,Novi Putri,Accessories,3.0,121.7,2024-02-20,Jakarta,E-Wallet,
+ORD-00285,Dian Handoko,Computers,6.0,164.46,2024-02-21,Jakarta,Credit Card,4.7
+ORD-00286,Bambang Wibowo,Electronics,8.0,230.18,2024-02-21,Bandung,Bank Transfer,4.3
+ORD-00287,Joko Rahayu,Electronics,2.0,260.56,2024-02-22,SEMARANG,Bank Transfer,4.8
+ORD-00288,Ahmad Rahayu,Electronics,5.0,126.23,2024-02-22,Semarang ,Credit Card,1.7
+ORD-00289,Andi Handoko,Electronics,1.0,269.57,2024-02-22,Jakarta,Cash on Delivery,5.0
+ORD-00290,Ahmad Santoso,Computers,1.0,308.45,2024-02-22,Bandung,Bank Transfer,3.9
+ORD-00291,Dian Nugroho,Electronics,5.0,Rp 233.07,2024-02-23,Bandung,Cash on Delivery,4.9
+ORD-00292,Dian Hidayat,Gadgets,3.0,350.14,2024-02-23,Medan,E-Wallet,
+ORD-00293,Fitri Sari,Accessories,4.0,138.1,2024-02-23,Semarang,Credit,4.5
+ORD-00294,Joko Wibowo,Audio,3.0,100.43,2024-02-23,Semarang,Cash on Delivery,3.2
+ORD-00295,Budi Permana,Electronics,1.0,57.7,2024-02-24,Medan,Cash on Delivery,3.5
+ORD-00296,Yuni Santoso,Audio,1.0,319.68,2024-02-24,Surabaya,Bank Transfer,5.0
+ORD-00297,Agus Handoko,Audio,5.0,252.35,2024-02-24,Semarang,E-Wallet,3.8
+ORD-00298,Eko Lestari,Audio,6.0,195.55,2024-02-24,Medan,Bank Transfer,4.2
+ORD-00299,Rina Wijaya,Gadgets,3.0,222.4,2024-02-24,Bandung,E-Wallet,4.7
+ORD-00300,Andi Permana,Electronics,9.0,109.96,2024-02-25,Surabaya,Bank Transfer,4.4
+ORD-00301,Rizky Susanto,Computers,5.0,395.66,2024-02-25,Jakarta,Cash on Delivery,4.1
+ORD-00302,Fitri Nugroho,Gadgets,8.0,210.34,2024-02-25,Bandung,Cash on Delivery,4.3
+ORD-00303,Rizky Permana,Computers,1.0,208.75,2024-02-25,SURABAYA,Credit Card,
+ORD-00304,Andi Handoko,Electronics,5.0,258.06,2024-02-25,Medan,Cash on Delivery,4.0
+ORD-00305,Andi Kusuma,Gadgets,3.0,238.48,2024-02-26,Bandung,Cash on Delivery,4.2
+ORD-00306,Ahmad Santoso,Audio,1.0,217.91,2024-02-26,Surabaya,Cash on Delivery,4.8
+ORD-00307,Bambang Wijaya,Gadgets,4.0,136.76,2024-02-26,jakarta,cod,4.9
+ORD-00308,Novi Rahayu,Gadgets,5.0,237.72,2024-02-26,Bandung,Credit Card,4.9
+ORD-00309,Agus Wijaya,Electronics,7.0,350.56,2024-02-26,Bandung,E-Wallet,
+ORD-00310,Budi Rahayu,Audio,1.0,307.63,2024-02-26,Semarang,Credit Card,3.1
+ORD-00311,Hendra Santoso,Audio,3.0,327.45,2024-02-26,Surabaya,Credit Card,5.0
+ORD-00312,Joko Sari,Accessories,2.0,159.1,2024-02-26,Surabaya,Bank Transfer,3.1
+ORD-00313,Maya Sari,,9.0,120.83,2024-02-26,Semarang,E-Wallet,4.2
+ORD-00314,Ahmad Pratama,Computers,10.0,189.94,2024-02-26,Medan,Bank Transfer,3.4
+ORD-00315,Yuni Susanto,Accessories,6.0,204.46,2024-02-27,Medan,Credit Card,3.9
+ORD-00316,Fitri Setiawan,Electronics,10.0,287.54,2024-02-27,Semarang,Cash on Delivery,4.3
+ORD-00317,Novi Hidayat,Gadgets,3.0,64.6,2024-02-27,Bandung,E-Wallet,4.3
+ORD-00318,Joko Pratama,Audio,8.0,322.36,2024-02-27,Jakarta,Cash on Delivery,4.3
+ORD-00319,Rina Putri,Gadgets,8.0,187.36,2024-02-27,Medan,Credit Card,5.0
+ORD-00320,Dewi Santoso,Electronics,2.0,165.85,2024-02-27,Jakarta,Credit Card,4.4
+ORD-00321,Putri Permana,Gadgets,6.0,119.03,2024-02-27,Surabaya,Credit Card,3.8
+ORD-00322,Dian Susanto,Audio,7.0,67.61,2024-02-27,Surabaya,E-Wallet,4.8
+ORD-00323,Agus Rahayu,Accessories,2.0,265.85,2024-02-27,Medan,Bank Transfer,
+ORD-00324,Dewi Putri,Computers,10.0,205.87,2024-02-27,Bandung,Bank Transfer,3.0
+ORD-00325,Joko Pratama,Audio,2.0,96.8,2024-02-27,Surabaya,Cash on Delivery,
+ORD-00326,Yuni Wijaya,Audio,10.0,96.39,2024-02-27,Jakarta,E-Wallet,4.6
+ORD-00327,Novi Wibowo,Audio,1.0,173.14,2024-02-28,Bandung ,Cash on Delivery,3.8
+ORD-00328,Wawan Wati,Audio,8.0,333.52,2024-02-28,Medan,COD,5.0
+ORD-00329,Agus Kartika,Electronics,1.0,179.23,2024-02-29,Surabaya,Bank Transfer,3.9
+ORD-00330,Rizky Santoso,Audio,9.0,79.75,2024-02-29,MEDAN,E-Wallet,4.1
+ORD-00331,Wawan Suryadi,Gadgets,6.0,"180,000",2024-02-29,Bandung,Credit Card,3.9
+ORD-00332,Dewi Handoko,Electronics,7.0,178.18,2024-02-29,Bandung,Cash on Delivery,4.0
+ORD-00333,Novi Lestari,Accessories,10.0,50.0,2024-03-01,Bandung,Credit Card,3.1
+ORD-00334,Eko Handoko,Gadgets,7.0,195.66,2024-03-01,Semarang,E-WALLET,2.8
+ORD-00335,Rina Kartika,Gadgets,10.0,181.53,2024-03-01,Semarang,Cash on Delivery,5.0
+ORD-00336,Andi Wibowo,Gadgets,3.0,255.7,2024-03-01,Jakarta,Credit Card,3.3
+ORD-00337,Ahmad Lestari,Gadgets,2.0,347.92,2024-03-01,Bandung,Credit Card,3.2
+ORD-00338,Wawan Setiawan,Electronics,9.0,290.13,2024-03-01,Bandung,Bank Transfer,2.3
+ORD-00339,Rizky Rahayu,Accessories,8.0,178.49,2024-03-02,Surabaya,E-Wallet,3.5
+ORD-00340,Agus Setiawan,Accessories,10.0,111.48,2024-03-02,JAKARTA,E-Wallet,2.9
+ORD-00341,Fitri Rahayu,Audio,7.0,405.87,2024-03-02,Jakarta,E-Wallet,5.0
+ORD-00342,Fitri Permana,Computers,9.0,10000.0,2024-03-03,Medan,Cash on Delivery,4.8
+ORD-00343,Rizky Santoso,Electronics,4.0,201.11,2024-03-03,Bandung,Bank Transfer,3.4
+ORD-00344,Ahmad Nugroho,Accessories,4.0,198.07,2024-04-03,Surabaya,Cash on Delivery,5.0
+ORD-00345,Rina Suryadi,Electronics,1.0,215.85,2024-03-04,Medan,E-Wallet,4.8
+ORD-00346,Hendra Wati,Electronics,8.0,188.45,2024-03-04,Semarang,Cash on Delivery,3.7
+ORD-00347,Andi Nugroho,Audio,3.0,154.11,2024-03-04,Bandung,Credit Card,2.0
+ORD-00348,Andi Setiawan,Accessories,7.0,156.25,2024-03-04,Jakarta,Cash on Delivery,5.0
+ORD-00349,Bambang Santoso,Computers,2.0,197.38,2024-03-05,Bandung,Cash on Delivery,2.9
+ORD-00350,Lina Susanto,Computers,2.0,156.53,2024-03-05,Bandung,E-Wallet,2.7
+ORD-00351,Agus Rahayu,Computers,7.0,142.97,2024-03-05,Semarang,Credit Card,4.8
+ORD-00352,Wawan Suryadi,Gadgets,6.0,"208,000",2024-03-05,Surabaya,E-Wallet,5.0
+ORD-00353,Bambang Rahayu,Accessories,3.0,179.6,2024-03-05,Surabya,CC,5.0
+ORD-00354,Ahmad Suryadi,Gadgets,9.0,320.32,2024-03-05,Surabaya,Credit Card,4.5
+ORD-00355,Fitri Santoso,Gadgets,10.0,50.0,2024-03-05,Medan,Credit Card,4.5
+ORD-00356,Agus Putri,Gadgets,6.0,287.32,2024-03-05,Surabaya,E-Wallet,4.7
+ORD-00357,Maya Permana,Audio,10.0,299.69,2024-03-05,Medan,Credit Card,4.6
+ORD-00358,Maya Putri,Audio,10.0,50.0,2024-03-06,Semarang,Bank Transfer,4.2
+ORD-00359,Yuni Wati,Electronics,6.0,172.58,2024-06-03,Bandung,Bank Transfer,4.1
+ORD-00360,Ahmad Wibowo,Electronics,1.0,170.28,2024-06-03,Medan,Bank Transfer,
+ORD-00361,Lina Wati,Accessories,4.0,87.4,2024-03-06,Semarang,Bank Transfer,3.4
+ORD-00362,Wawan Wibowo,Accessories,10.0,137.77,2024-03-06,Medan,E-Wallet,3.8
+ORD-00363,Rizky Wati,Audio,6.0,111.15,2024-03-06,semarang,Cash on Delivery,2.6
+ORD-00364,Fitri Setiawan,Electronics,6.0,340.18,2024-03-07,Surabaya,Cash on Delivery,3.9
+ORD-00365,Putri Setiawan,Electronics,5.0,274.85,2024-03-07,surabaya,Bank Transfer,3.2
+ORD-00366,Maya Pratama,Gadgets,1.0,301.72,2024-03-07,Semarang,Cash on Delivery,3.1
+ORD-00367,Hendra Nugroho,Computers,8.0,"257,000",2024-03-07,Jakarta,Bank Transfer,4.1
+ORD-00368,Dewi Wibowo,Computers,5.0,109.68,2024-03-07,Semarang ,Bank Transfer,5.0
+ORD-00369,Rina Susanto,Computers,5.0,158.04,2024-03-07,Medan,Cash on Delivery,4.7
+ORD-00370,Hendra Suryadi,Audio,7.0,"239,000",2024-03-07,Semarang,Cash on Delivery,
+ORD-00371,Andi Kartika,Computers,4.0,102.23,2024-03-08,Bandung,Credit Card,3.2
+ORD-00372,Joko Putri,Computers,6.0,257.04,2024-03-08,Jakarta,Bank Transfer,4.8
+ORD-00373,Dewi Susanto,Gadgets,4.0,180.77,2024-03-08,Semarang,Cash on Delivery,3.2
+ORD-00374,Putri Rahayu,Accessories,3.0,170.01,2024-03-08,Jakarta,Cash on Delivery,3.8
+ORD-00375,Novi Hidayat,Audio,7.0,256.88,2024-03-08,Jakarta,Cash on Delivery,
+ORD-00376,Putri Santoso,Electronics,8.0,235.54,2024-03-08,Semarang,Credit Card,3.2
+ORD-00377,Bambang Sari,Gadgets,4.0,171.12,2024-03-08,Semarang,Bank Transfer,4.1
+ORD-00378,Andi Wijaya,Computers,2.0,292.75,2024-03-08,Surabaya,Bank Transfer,2.9
+ORD-00379,Siti Wibowo,Electronics,10.0,113.51,2024-03-08,Semarang,Ewallet,3.5
+ORD-00380,Putri Sari,Gadgets,3.0,249.27,2024-03-09,Semarang,credit card,4.3
+ORD-00381,Ahmad Pratama,Audio,1.0,247.45,2024-03-09,Surabaya,Credit Card,2.7
+ORD-00382,Budi Putri,Computers,8.0,175.24,2024-03-09, Surabaya,Bank Transfer,4.4
+ORD-00383,Ahmad Suryadi,Audio,3.0,226.09,2024-03-10,Bandung,E-Wallet,4.0
+ORD-00384,Fitri Nugroho,Gadgets,10.0,99.91,2024-03-10,Semarang,E-Wallet,4.4
+ORD-00385,Rina Wijaya,Electronics,7.0,273.92,2024-10-03,Medan,Bank Transfer,4.2
+ORD-00386,Andi Suryadi,Accessories,10.0,185.21,2024-03-10,Jakarta,Cash on Delivery,5.0
+ORD-00387,Dewi Kusuma,Computers,5.0,158.18,2024-03-10,Surabaya,Credit Card,4.1
+ORD-00388,Dian Suryadi,Audio,10.0,283.92,2024-03-10,Semarang,E-Wallet,3.7
+ORD-00389,Agus Wijaya,Electronics,5.0,143.65,2024-03-11,Medan,Cash on Delivery,4.1
+ORD-00390,Eko Sari,Electronics,7.0,5000.0,2024-03-11,Jakarta,E-Wallet,4.4
+ORD-00391,Yuni Putri,Accessories,9.0,75.47,2024-03-11,Semarang,cod,4.0
+ORD-00392,Agus Rahayu,Gadgets,5.0,248.48,2024-03-11, Medan ,Cash on Delivery,4.0
+ORD-00393,Dewi Wibowo,Accessories,1.0,97.57,2024-03-11,  Jakarta  ,credit card,3.4
+ORD-00394,Wawan Rahayu,Accessories,10.0,340.38,2024-03-11,Medan,E-Wallet,3.5
+ORD-00395,Lina Permana,Gadgets,10.0,8000.0,2024-03-11,Surabaya,E-Wallet,2.9
+ORD-00396,Fitri Lestari,Gadgets,1.0,335.72,2024-11-03,Semarang,Cash on Delivery,
+ORD-00397,Putri Handoko,Gadgets,2.0,216.88,2024-03-11,Medan,Bank,
+ORD-00398,Putri Wijaya,Electronics,6.0,192.26,2024-03-12, Medan ,Ewallet,3.4
+ORD-00399,Joko Pratama,Electronics,9.0,7500.0,2024-03-12,Semarang,Credit Card,3.4
+ORD-00400,Hendra Susanto,Computers,8.0,231.93,2024-03-12,Jakarta,Bank Transfer,4.7
+ORD-00401,Andi Kusuma,Computers,5.0,196.99,2024-03-13,Semarang,E-Wallet,3.8
+ORD-00402,Rina Rahayu,Accessories,1.0,288.26,2024-03-13,Medan,Credit Card,
+ORD-00403,Rina Wibowo,Accessories,7.0,209.14,2024-03-14,Bandung,Bank Transfer,3.5
+ORD-00404,Agus Hidayat,Computers,5.0,212.02,2024-03-14,Jakarta,E-Wallet,4.2
+ORD-00405,Budi Handoko,Audio,6.0,170.91,2024-03-14,medan,CREDIT CARD,3.3
+ORD-00406,Fitri Suryadi,Accessories,7.0,"195,000",2024-03-14,bandung,Bank Transfer,5.0
+ORD-00407,Putri Wijaya,Audio,3.0,224.62,2024-03-14,Jakarta,Ewallet,3.0
+ORD-00408,Maya Putri,Audio,10.0,"63,000",2024-03-14,Surabaya,Bank Transfer,4.2
+ORD-00409,Putri Lestari,Gadgets,3.0,92.15,2024-03-14,Semarang,Cash on Delivery,4.5
+ORD-00410,Agus Rahayu,Electronics,5.0,259.46,2024-03-15,Jakarta,Cash on Delivery,4.3
+ORD-00411,Andi Susanto,Computers,6.0,213.67,2024-03-15,JAKARTA,Bank Transfer,3.9
+ORD-00412,Wawan Pratama,Electronics,9.0,185.28,2024-03-15,Medan,cash,3.9
+ORD-00413,Bambang Rahayu,Computers,5.0,201.47,2024-03-15,Bandung,cash,4.0
+ORD-00414,Eko Setiawan,Electronics,1.0,227.81,2024-03-16,Jakarta,Bank Transfer,3.9
+ORD-00415,Eko Kusuma,Computers,4.0,156.82,2024-03-16,Semarang ,Cash on Delivery,4.8
+ORD-00416,Siti Hidayat,Electronics,5.0,137.74,2024-03-17,Jakarta,Bank Transfer,5.0
+ORD-00417,Putri Putri,Gadgets,10.0,215.67,2024-03-17,Jakarta,Bank Transfer,3.6
+ORD-00418,Fitri Pratama,Audio,10.0,121.73,2024-03-17,Medan,Cash on Delivery,2.9
+ORD-00419,Fitri Putri,Computers,5.0,232.66,2024-03-17,Jakarta,E-Wallet,3.9
+ORD-00420,Dian Setiawan,,7.0,63.79,2024-03-18,Bandung,Bank Transfer,5.0
+ORD-00421,Lina Wibowo,Computers,4.0,282.33,2024-03-18,Medan,BT,3.4
+ORD-00422,Ahmad Lestari,Computers,1.0,237.81,2024-03-18,SURABAYA,E-Wallet,5.0
+ORD-00423,Agus Wijaya,Gadgets,5.0,220.48,2024-03-18,Surabaya,Cash on Delivery,5.0
+ORD-00424,Wawan Nugroho,Electronics,7.0,278.62,2024-03-18,Medan,CC,3.6
+ORD-00425,Joko Setiawan,Computers,10.0,333.24,2024-03-18,Bandung,E-WALLET,4.5
+ORD-00426,Budi Kusuma,Electronics,10.0,281.15,2024-03-18,Medan,Credit Card,5.0
+ORD-00427,Maya Santoso,Gadgets,6.0,52.73,2024-03-18,Medan,Cash on Delivery,3.7
+ORD-00428,Andi Wijaya,Accessories,5.0,97.63,2024-03-18,Medan,Bank Transfer,3.8
+ORD-00429,Rina Suryadi,Audio,4.0,150.01,2024-03-19,Medan,Bank,3.5
+ORD-00430,Lina Lestari,Computers,2.0,202.09,2024-03-19,  Jakarta  ,cash,3.2
+ORD-00431,Andi Hidayat,Gadgets,4.0,241.41,2024-03-19,Semarang,Cash on Delivery,
+ORD-00432,Yuni Handoko,Electronics,10.0,141.94,2024-03-19,Surabaya,Cash on Delivery,3.0
+ORD-00433,Ahmad Kusuma,Computers,10.0,214.94,2024-03-19,Bandung,Cash on Delivery,4.0
+ORD-00434,Ahmad Wati,,3.0,139.57,2024-03-19,Jakarta,cash,3.4
+ORD-00435,Wawan Nugroho,Accessories,10.0,151.08,2024-03-19,Surabaya,Cash on Delivery,4.2
+ORD-00436,Rizky Pratama,Computers,1.0,87.47,2024-03-19,Semarang,Cash on Delivery,2.8
+ORD-00437,Rina Nugroho,Audio,8.0,126.14,2024-03-20,MEDAN,Bank Transfer,4.3
+ORD-00438,Wawan Suryadi,Computers,5.0,91.87,2024-03-20,Semarang,Credit Card,4.7
+ORD-00439,Putri Permana,Audio,4.0,121.93,2024-03-20,Surabaya,Credit Card,2.4
+ORD-00440,Bambang Wijaya,Electronics,8.0,Rp 284.29,2024-03-20,Surabaya,Bank Transfer,
+ORD-00441,Fitri Kusuma,Computers,7.0,124.05,2024-03-21,Jakarta,E-Wallet,5.0
+ORD-00442,Rizky Setiawan,Gadgets,2.0,410.59,2024-03-21,Jakarta,Credit Card,3.0
+ORD-00443,Rizky Pratama,Gadgets,1.0,239.47,2024-03-21,Bandung,E-Wallet,5.0
+ORD-00444,Dian Kartika,Accessories,4.0,214.79,2024-03-21, Medan ,Bank Transfer,4.3
+ORD-00445,Budi Wibowo,Gadgets,8.0,131.33,2024-03-21,Semarang,E-Wallet,3.4
+ORD-00446,Fitri Handoko,Accessories,2.0,256.02,2024-03-22,Medan,bank transfer,4.0
+ORD-00447,Siti Susanto,Electronics,3.0,153.95,2024-03-22,Semarang,Cash on Delivery,4.4
+ORD-00448,Lina Wati,Audio,1.0,209.76,2024-03-22,Medan,Cash on Delivery,4.1
+ORD-00449,Joko Suryadi,Electronics,1.0,404.81,2024-03-22,Surabaya,Credit Card,4.4
+ORD-00450,Fitri Wijaya,Audio,3.0,192.32,2024-03-22,Surabaya,Credit Card,3.3
+ORD-00451,Hendra Setiawan,Audio,5.0,291.94,2024-03-22,Medan,Ewallet,4.1
+ORD-00452,Bambang Sari,Accessories,3.0,Rp 143.75,2024-03-22,Bandung,E-Wallet,2.9
+ORD-00453,Putri Lestari,Gadgets,1.0,197.2,2024-03-23,Surabaya,Credit Card,3.9
+ORD-00454,Ahmad Pratama,Gadgets,1.0,341.66,2024-03-23,Bandung,Cash on Delivery,3.3
+ORD-00455,Budi Rahayu,Accessories,8.0,149.84,2024-03-23,surabaya,Bank Transfer,3.4
+ORD-00456,Rina Putri,Accessories,10.0,345.0,2024-03-23,Jakarta,Cash on Delivery,5.0
+ORD-00457,Bambang Santoso,Electronics,2.0,256.62,2024-03-23,jakarta,credit card,4.9
+ORD-00458,Bambang Handoko,Accessories,3.0,155.0,2024-03-23,Medan,Bank Transfer,4.5
+ORD-00459,Agus Rahayu,Gadgets,2.0,250.59,2024-03-23,Semarang,E-Wallet,3.1
+ORD-00460,Dewi Lestari,Accessories,3.0,277.8,2024-03-23,Jakarta,credit card,3.7
+ORD-00461,Dewi Sari,Accessories,7.0,249.74,2024-03-23,Surabaya,Cash on Delivery,5.0
+ORD-00462,Ahmad Putri,Audio,1.0,74.38,2024-03-23,Surabaya,E-Wallet,4.1
+ORD-00463,Lina Setiawan,Accessories,10.0,141.83,2024-03-24,Jakarta,E-Wallet,5.0
+ORD-00464,Wawan Suryadi,Electronics,8.0,180.2,2024-03-24,JAKARTA,Credit Card,4.3
+ORD-00465,Ahmad Rahayu,Accessories,10.0,194.05,2024-03-24,Semarang,Cash on Delivery,4.2
+ORD-00466,Fitri Wibowo,Computers,10.0,249.65,2024-03-24,Jakarta,Credit Card,3.8
+ORD-00467,Eko Permana,Computers,10.0,214.22,2024-03-24,Medan,Bank Transfer,4.1
+ORD-00468,Hendra Kartika,Audio,2.0,Rp 93.17,2024-03-25,Semarang,Bank Transfer,3.9
+ORD-00469,Eko Kusuma,Audio,3.0,230.42,2024-03-25,Jakarta,E-Wallet,4.6
+ORD-00470,Andi Handoko,Computers,9.0,248.85,2024-03-25,Surabaya,COD,4.8
+ORD-00471,Rizky Kartika,Audio,7.0,"244,000",2024-03-25,Jakarta,Bank Transfer,3.4
+ORD-00472,Andi Santoso,Audio,4.0,286.46,2024-03-25,Medan,Bank Transfer,2.9
+ORD-00473,Putri Putri,Gadgets,10.0,266.71,2024-03-25, Medan ,Bank Transfer,2.5
+ORD-00474,Yuni Suryadi,Gadgets,5.0,236.73,2024-03-25,Surabya,Bank Transfer,4.4
+ORD-00475,Eko Lestari,Accessories,2.0,194.39,2024-03-26,Semarang,Credit Card,3.1
+ORD-00476,Bambang Suryadi,Computers,8.0,67.12,2024-03-26,Surabaya,E-Wallet,2.3
+ORD-00477,Novi Nugroho,Electronics,4.0,234.37,2024-03-26,Jakarta,e-wallet,4.3
+ORD-00478,Bambang Wibowo,Computers,9.0,216.62,2024-03-26,Surabaya,Bank Transfer,5.0
+ORD-00479,Dian Lestari,Computers,5.0,221.73,2024-03-26,Semarang,E-Wallet,4.0
+ORD-00480,Rizky Susanto,Gadgets,9.0,97.86,2024-03-26,Bandung,E-Wallet,4.7
+ORD-00481,Maya Permana,Gadgets,4.0,113.52,2024-03-27,Surabaya,E-Wallet,4.1
+ORD-00482,Maya Handoko,Audio,10.0,284.25,2024-03-27,Semarang,E-Wallet,3.9
+ORD-00483,Siti Nugroho,Electronics,5.0,196.84,2024-03-27,Bandung,Credit Card,4.7
+ORD-00484,Ahmad Permana,Gadgets,9.0,254.52,2024-03-27,Semarang,Bank Transfer,3.8
+ORD-00485,Dian Sari,Audio,8.0,202.27,2024-03-27,Semarang,COD,4.2
+ORD-00486,Ahmad Wijaya,,3.0,202.38,2024-03-27,Bandung,Credit Card,4.3
+ORD-00487,Eko Kartika,Gadgets,1.0,275.06,2024-03-27,Surabaya,E-WALLET,3.5
+ORD-00488,Yuni Nugroho,Computers,3.0,158.72,2024-03-28,Bandung,BT,4.8
+ORD-00489,Dewi Lestari,Computers,4.0,Rp 207.69,2024-03-28,Surabaya,Bank Transfer,3.9
+ORD-00490,Dewi Kartika,Electronics,2.0,163.02,2024-03-28,Semarang,Bank Transfer,3.4
+ORD-00491,Fitri Santoso,Electronics,1.0,165.24,2024-03-28, Surabaya,Bank Transfer,4.4
+ORD-00492,Eko Handoko,Gadgets,7.0,175.27,2024-03-29,medan,E-Wallet,3.3
+ORD-00493,Eko Kusuma,Gadgets,8.0,217.77,2024-03-29,Bandung,Bank Transfer,4.0
+ORD-00494,Ahmad Setiawan,Electronics,7.0,161.7,2024-03-29,Bandung,Cash on Delivery,4.0
+ORD-00495,Rizky Permana,Electronics,5.0,300.46,2024-03-29,Jakarta,Cash on Delivery,4.9
+ORD-00496,Agus Nugroho,Audio,1.0,128.43,2024-03-30,Semarang,Bank Transfer,4.4
+ORD-00497,Bambang Permana,Audio,7.0,Rp 185.05,2024-03-30,Semarang ,E-Wallet,4.0
+ORD-00498,Rizky Suryadi,Audio,7.0,164.82,2024-03-30,Surabaya,Cash On Delivery,4.7
+ORD-00499,Bambang Wijaya,Computers,9.0,315.76,2024-03-30,Medan,Cash on Delivery,5.0
+ORD-00500,Joko Kusuma,Computers,3.0,215.72,2024-03-30,Semarang,Cash on Delivery,4.4
+ORD-00039,Dian Setiawan,Gadgets,2.0,268.61,2024-01-09,Surabaya,Cash on Delivery,3.5
+ORD-00325,Joko Pratama,Audio,2.0,96.8,2024-02-27,Surabaya,Cash on Delivery,4.5
+ORD-00407,Putri Wijaya,Audio,3.0,224.62,2024-03-14,Jakarta,E-Wallet,3.0
+ORD-00451,Hendra Setiawan,Audio,5.0,291.94,2024-03-22,Medan,E-Wallet,4.1
+ORD-00394,Wawan Rahayu,Accessories,10.0,340.38,2024-03-11,Medan,E-Wallet,3.5
+ORD-00048,Eko Setiawan,Audio,4.0,322.62,2024-01-10,Bandung,Bank Transfer,2.8
+ORD-00207,Lina Permana,Electronics,4.0,Rp 66.45,2024-02-09,Surabaya,Credit Card,
+ORD-00264,Ahmad Lestari,Audio,3.0,261.67,2024-02-17,Medan,E-Wallet,3.7
+ORD-00384,Fitri Nugroho,Gadgets,10.0,99.91,2024-03-10,SEMARANG,E-Wallet,4.4
+ORD-00143,Dewi Rahayu,Electronics,9.0,191.44,2024-01-25,Semarang,Cash on Delivery,4.3
+ORD-00356,Agus Putri,Gadgets,6.0,287.32,2024-03-05, Surabaya,E-Wallet,4.7
+ORD-00480,Rizky Susanto,Gadgets,9.0,97.86,2024-03-26,Bandung,E-Wallet,
+ORD-00450,Fitri Wijaya,Audio,3.0,192.32,2024-03-22,Surabaya,Credit Card,3.3
+ORD-00189,Dewi Wati,Audio,6.0,88.11,2024-02-06,Semarang,Bank Transfer,4.0
+ORD-00233,Budi Putri,Audio,2.0,246.17,2024-02-13,Bandung ,Bank,4.5
+ORD-00487,Eko Kartika,Gadgets,1.0,275.06,2024-03-27,Surabaya,E-Wallet,3.5
+ORD-00250,Dian Suryadi,Accessories,1.0,173.92,2024-02-16,Semarang,Credit Card,2.6
+ORD-00168,Andi Putri,Computers,4.0,123.56,2024-01-31,Semarang,E-Wallet,4.3
+ORD-00298,Eko Lestari,Audio,6.0,195.55,2024-02-24,Medan,Bank Transfer,4.2
+ORD-00002,Andi Rahayu,Gadgets,4.0,201.68,2024-01-01,Semarang,Credit Card,2.8
