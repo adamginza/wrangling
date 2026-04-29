@@ -295,56 +295,170 @@ def evaluate_local(y_true, y_pred):
     print(f"  - R2:   {r2:.4f}")
 
     # Baseline reference
-    print(f"\nBaseline RMSE: ~$65,000")
-    if rmse < 60000:
+    print(f"\nBaseline RMSE: ~$112,000")
+    if rmse < 105000:
         print(f"[GOOD] You beat the baseline!")
     else:
         print(f"[WARNING] You haven't beat the baseline yet. Keep cleaning and engineering!")
 
-    if rmse < 50000:
+    if rmse < 90000:
         print(f"[EXCELLENT] Your model is performing very well!")
 
     return {'rmse': rmse, 'mae': mae, 'r2': r2}
 
 
-# Usage example (commented out)
-"""
 # ============================================
-# EXAMPLE WORKFLOW
+# COMPLETE EXAMPLE WORKFLOW
+# ============================================
+#
+# Copy and paste this code into your Jupyter notebook.
+# Modify the cleaning and feature engineering sections to improve your score!
+#
+# FILES YOU HAVE:
+#   - train.csv: Training data WITH sale_price (use for cleaning & training)
+#   - test.csv:  Test data WITHOUT sale_price (use for predictions)
+#
+# YOUR GOAL:
+#   - Clean train.csv and test.csv (apply SAME cleaning to both!)
+#   - Engineer new features (apply SAME features to both!)
+#   - Train model on train.csv
+#   - Predict on test.csv
+#   - Submit predictions to Kaggle
+#
+# BASELINE RMSE: ~$112,000 (you must beat this!)
+#
 # ============================================
 
+EXAMPLE_CODE = """
+# ==========================================
+# STEP 1: IMPORTS AND LOAD DATA
+# ==========================================
 import pandas as pd
+import numpy as np
 from model_training import train_and_predict, show_feature_importance, create_submission
 
-# 1. Load data
+# Load the data files
 train_df = pd.read_csv('train.csv')
 test_df = pd.read_csv('test.csv')
 
-# 2. Clean and engineer features (YOUR WORK HERE!)
-# ... your cleaning code ...
-# ... your feature engineering code ...
+print(f"Train shape: {train_df.shape}")
+print(f"Test shape: {test_df.shape}")
+print(f"\\nTrain columns: {train_df.columns.tolist()}")
 
-# 3. Prepare for training
-# Remove non-feature columns
-drop_cols = ['sale_price', 'property_id', 'sale_id', 'address', 'neighborhood', 'sale_date']
-X_train = train_df.drop(drop_cols, axis=1, errors='ignore')
-y_train = train_df['sale_price']
-X_test = test_df.drop([c for c in drop_cols if c != 'sale_price'], axis=1, errors='ignore')
+# ==========================================
+# STEP 2: EXPLORE THE DATA
+# ==========================================
+# Understand what you're working with before cleaning!
 
-# Ensure numeric only
+print(train_df.info())
+print(train_df.describe())
+
+# Check for missing values (but remember: -1, 0, "N/A" might also mean missing!)
+print(train_df.isna().sum())
+
+# Look at unique values in categorical columns
+print(train_df['waterfront'].value_counts(dropna=False))
+print(train_df['property_type'].value_counts())
+
+# ==========================================
+# STEP 3: DATA CLEANING (YOUR MAIN WORK!)
+# ==========================================
+# IMPORTANT: Apply the SAME cleaning to BOTH train_df AND test_df!
+
+# Example: Create a cleaning function so you apply the same steps to both
+def clean_data(df):
+    df = df.copy()
+
+    # --- Handle missing value markers ---
+
+    # --- Fix inconsistent values ---
+
+    # --- Handle outliers ---
+
+    # --- Impute missing values ---
+
+    return df
+
+# Apply cleaning to both datasets
+train_clean = clean_data(train_df)
+test_clean = clean_data(test_df)
+
+# ==========================================
+# STEP 4: FEATURE ENGINEERING (IMPROVE YOUR SCORE!)
+# ==========================================
+# IMPORTANT: Apply the SAME features to BOTH train AND test!
+
+def engineer_features(df):
+    df = df.copy()
+
+    # TODO: Create new features that might help predict price
+
+    # Example features (uncomment and modify):
+    # df['age'] = 2024 - df['year_built']
+
+    # Extract date features from sale_date
+
+    return df
+
+# Apply feature engineering to both datasets
+train_featured = engineer_features(train_clean)
+test_featured = engineer_features(test_clean)
+
+# ==========================================
+# STEP 5: PREPARE DATA FOR MODEL
+# ==========================================
+
+# Columns to drop (not useful for prediction)
+drop_cols = [
+    'sale_price',      # Target variable (only in train)
+    'property_id',     # ID column
+    'sale_id',         # ID column
+    'address',         # Text - not numeric
+    'neighborhood',    # Text - encode or drop
+    'property_type',   # Text - encode or drop
+    'sale_date',       # Date - already extracted features
+    'waterfront'       # Text - should have been encoded in cleaning
+]
+
+# Separate features (X) and target (y)
+y_train = train_featured['sale_price']
+
+X_train = train_featured.drop([c for c in drop_cols if c in train_featured.columns], axis=1)
+X_test = test_featured.drop([c for c in drop_cols if c in test_featured.columns and c != 'sale_price'], axis=1)
+
+# Keep only numeric columns
 X_train = X_train.select_dtypes(include=[np.number])
-X_test = X_test[X_train.columns]
+X_test = X_test[X_train.columns]  # Ensure same columns in same order
 
-# Fill any remaining NaN
-X_train = X_train.fillna(0)
-X_test = X_test.fillna(0)
+# Fill any remaining NaN (last resort - better to handle in cleaning!)
+X_train = X_train.fillna(X_train.median())
+X_test = X_test.fillna(X_train.median())  # Use TRAIN median for test!
 
-# 4. Train and predict
+print(f"\\nFeatures for training: {X_train.columns.tolist()}")
+print(f"X_train shape: {X_train.shape}")
+print(f"X_test shape: {X_test.shape}")
+
+# ==========================================
+# STEP 6: TRAIN MODEL AND PREDICT
+# ==========================================
+
 predictions, model, train_rmse = train_and_predict(X_train, y_train, X_test)
 
-# 5. Check feature importance
+# ==========================================
+# STEP 7: CHECK FEATURE IMPORTANCE
+# ==========================================
+# See which features matter most - this helps you engineer better features!
+
 importance_df = show_feature_importance(model, X_train)
 
-# 6. Create submission
-create_submission(predictions, test_df)
+# ==========================================
+# STEP 8: CREATE SUBMISSION FILE
+# ==========================================
+
+create_submission(predictions, test_df, 'predictions.csv')
+
+# Now upload predictions.csv to Kaggle!
+# Your goal: Beat the baseline RMSE of ~$112,000
 """
+
+print(EXAMPLE_CODE)
